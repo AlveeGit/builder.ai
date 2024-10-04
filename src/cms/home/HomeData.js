@@ -189,3 +189,16 @@ export const featureData = [
     imagePosition: "left",
   },
 ];
+
+export const HomeHeroList = [
+  {
+    item: "No tech knowledge needed",
+  },
+  {
+    item: "AI means we can build more cost effectively and at speed",
+  },
+
+  {
+    item: "Your own dedicated expert is with you at every step",
+  },
+];

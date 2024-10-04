@@ -3,12 +3,16 @@
 
 body {
   font-family: 'Figtree', sans-serif;
-  background-color: whitesmoke;
+  background-color: white;
   color: black;
 }
 
 .max-w-primary{
   max-width: 1600px;
+}
+
+.text-primary{
+  color: #6200EA;
 }
 
 

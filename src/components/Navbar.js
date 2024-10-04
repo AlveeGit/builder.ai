@@ -25,12 +25,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-whitesmoke w-full">
+    <nav className=" bg-white w-full  sticky top-0 z-50 ">
       <div className="max-w-primary mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
         <div className="flex items-center space-x-4">
           <Link
             to="/"
-            className="text-xl font-bold text-[#6200EA] "
+            className="text-xl font-bold text-primary "
             onClick={handleLinkClick}
           >
             Builder.ai
@@ -67,8 +67,8 @@ const Navbar = () => {
             <option value="ES">ES</option>
             <option value="FR">FR</option>
           </select> */}
-          <Button  text="Pricing" variant="transparent" />
-          <Button  text="Sign in" variant="transparent" />
+          <Button text="Pricing" variant="transparent" />
+          <Button text="Sign in" variant="transparent" />
           <Button text="Get a free demo" />
         </div>
       </div>

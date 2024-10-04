@@ -13,6 +13,7 @@ import {
   brand7,
   homeHeroBg,
   homeHeroSub,
+  homepagehero,
 } from "../assets/images";
 import Guide from "../components/guides/Guide";
 import Promo from "../components/Promo";
@@ -24,6 +25,7 @@ import {
   guideCardsData,
   serverCardsData,
   featureData,
+  HomeHeroList,
 } from "../cms/home/HomeData.js";
 
 const Home = () => {
@@ -32,14 +34,17 @@ const Home = () => {
   return (
     <div>
       <Hero
-        title="The best Tic-Tac-Toe Game bot for Discord"
-        paragraph="DikTac is a complete Discord bot, easy-to-use, that millions of Discord servers worldwide trust to manage, entertain, and grow their community."
-        showDiscordButton
-        secondaryButtonText="See Features"
+        title="We make building an app so easy, anyone can do it"
+        paragraph="Your vision. Your software. We just build it."
+        // showDiscordButton
+        primaryButtonText="Get a free demo"
+        secondaryButtonText="See pricing and plans"
         alignment="left"
-        backgroundImage={homeHeroBg}
-        subImage={homeHeroSub}
-        gradient
+        listItems={HomeHeroList}
+        // backgroundImage={homeHeroBg}
+        // subImage={homeHeroSub}
+        // gradient
+        mainImage={homepagehero}
       />
 
       <Brands
