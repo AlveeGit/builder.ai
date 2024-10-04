@@ -3,7 +3,7 @@ import SpotlightCard from "./SpotlightCard";
 
 const Spotlight = ({ title, cards, linkText, linkUrl, handleLinkClick }) => {
   return (
-    <div className="bg-[#151621] p-8  shadow-lg">
+    <div className="bg-[#F8F9FA] p-8  shadow-lg">
       <h2 className="text-sm text-gray-400 font-bold mb-6">{title}</h2>
       <div className="space-y-6">
         {cards.map((card, index) => (

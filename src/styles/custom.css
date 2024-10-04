@@ -6,13 +6,20 @@ body {
   background-color: white;
   color: black;
 }
+:root {
+  --primary-color: #6200EA;
+}
 
 .max-w-primary{
   max-width: 1600px;
 }
 
 .text-primary{
-  color: #6200EA;
+  color: var(--primary-color);
+}
+
+.bg-primary{
+  background-color: var(--primary-color);
 }
 
 

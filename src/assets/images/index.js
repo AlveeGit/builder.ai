@@ -47,6 +47,11 @@ import utilitiesImg4 from "./utilities4.png";
 import utilitiesImg5 from "./utilities5.png";
 import utilitiesHeroBg from "./utilities-Hero-bg.png";
 import homepagehero from "./homepage-hero.webp";
+import fastcompany from "./fastcompany.png";
+import homefeature1 from "./homefeature1.png";
+import homefeature2 from "./homefeature2.png";
+import homefeature3 from "./homefeature3.png";
+
 
 export {
   feature1,
@@ -97,5 +102,9 @@ export {
   utilitiesImg4,
   utilitiesImg5,
   utilitiesHeroBg,
-  homepagehero
+  homepagehero,
+  fastcompany,
+  homefeature1,
+  homefeature2,
+  homefeature3
 };

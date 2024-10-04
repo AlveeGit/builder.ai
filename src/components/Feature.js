@@ -58,8 +58,8 @@ const Feature = ({
           </div>
         )}
         <div>
-          <h2 className="text-4xl font-bold mb-4 text-white">{title}</h2>
-          <p className="mb-8 text-blue-100 opacity-70">{paragraph}</p>
+          <h2 className="text-4xl font-bold mb-4">{title}</h2>
+          <p className="mb-8 opacity-70">{paragraph}</p>
           <div className="flex gap-4 flex-col lg:flex-row">
             {showDiscordButton && (
               <Button icon={FaDiscord} text="Add to Discord" />

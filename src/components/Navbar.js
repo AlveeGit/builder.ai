@@ -42,7 +42,7 @@ const Navbar = () => {
                 key={dropdownName}
                 title={title}
                 isOpen={openDropdown === dropdownName}
-                // onClick={() => handleDropdownClick(dropdownName)}
+                onClick={() => handleDropdownClick(dropdownName)}
               >
                 <DropdownContent
                   linkCardsData={linkCardsData}

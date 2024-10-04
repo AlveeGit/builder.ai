@@ -8,7 +8,7 @@ const Facility = ({ heading, facilitiesData }) => {
     <section className="max-w-primary mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row w-full  py-12 items-start gap-32 ">
       {/* Left Section */}
       <div className="w-full lg:w-1/3 flex flex-col justify-center lg:items-start  ">
-        <h2 className="text-3xl font-bold text-white mb-6 lg:text-left text-center ">
+        <h2 className="text-3xl font-bold  mb-6 lg:text-left text-center ">
           {heading}
         </h2>
         <Button icon={FaDiscord} text="Add to Discord" />

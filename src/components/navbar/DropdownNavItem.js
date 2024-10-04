@@ -17,7 +17,7 @@ const DropdownNavItem = ({ title, isOpen, onClick, children }) => {
       </button>
       {isOpen && (
         <div
-          className="absolute left-0  w-[99vw] bg-[#1F2129] mt-9 overflow-hidden border-t   "
+          className="absolute left-0  w-[99vw] bg-white mt-9 overflow-hidden border-t   "
           style={{ zIndex: 1000 }}
         >
           {children}

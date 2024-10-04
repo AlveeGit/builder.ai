@@ -6,10 +6,10 @@ const Guide = ({ heading, paragraph, cards, buttonText }) => {
   return (
     <section className=" py-8 ">
       <div className="max-w-primary mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
-        <h2 className="text-4xl max-w-md  font-semibold text-white mb-4">
+        <h2 className="text-4xl max-w-md  font-semibold  mb-4">
           {heading}
         </h2>
-        <p className="text-blue-100 max-w-2xl opacity-70 mt-6 mb-16">
+        <p className=" max-w-2xl opacity-70 mt-6 mb-16">
           {paragraph}
         </p>
 
