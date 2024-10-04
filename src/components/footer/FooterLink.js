@@ -5,7 +5,7 @@ const FooterLink = ({ href, text }) => {
     <div>
       <a
         href={href}
-        className="link text-gray-400 no-underline hover:text-[#0076FF] transition text-sm"
+        className="link text-black text-lg no-underline hover:text-[#0076FF] transition"
       >
         {text}
       </a>

@@ -7,34 +7,57 @@ import {
   footerImgBrand4,
 } from "../assets/images/BuilderAi_assets/index.js";
 import { FooterLogo } from "../assets/svg/footerLogoSvg.js";
+import { FacebookIcon, InstragramIcon, LinkedInIcon, RSSIcon, TwitterIcon, YoutubeIcon } from "../assets/svg/socialIcons.js";
 
 const Footer = () => {
   return (
-    <footer className="py-10 px-5 sm:py-16 sm:px-8 md:py-20 md:px-10 lg:py-24  bg-[#FFFFFF]">
-      <div className="max-w-primary mx-auto  text-zinc-200 lg:flex lg:justify-start lg:gap-x-32">
+    <footer className="pt-10 px-5 sm:pt-16 sm:px-8 md:pt-20 md:px-10 lg:pt-24  bg-[#FFFFFF]">
+      <div className="max-w-primary mx-auto px-4 sm:px-6 lg:px-8 text-zinc-200 lg:flex lg:justify-between lg:gap-x-24">
         {/* footer item 1 */}
         <nav className="flex flex-col gap-y-3">
           <FooterLogo />
-          <FooterLink href="#" text="Server management" />
-          <FooterLink href="#" text="Utilities" />
-          <FooterLink href="#" text="Social Alerts" />
-          <FooterLink href="#" text="Engagement & Fun" />
-          <FooterLink href="#" text="AI Characters" />
+          <div className="flex gap-x-3">
+            <FacebookIcon />
+            <FooterLink href="#" text="Facebook" />
+          </div>
+
+          <div className="flex gap-x-3">
+            <TwitterIcon />
+            <FooterLink href="#" text="X" />
+          </div>
+
+          <div className="flex gap-x-3">
+            <LinkedInIcon />
+            <FooterLink href="#" text="LinkedIn" />
+          </div>
+
+          <div className="flex gap-x-3">
+            <YoutubeIcon />
+            <FooterLink href="#" text="YouTube" />
+          </div>
+
+          <div className="flex gap-x-3">
+            <InstragramIcon />
+            <FooterLink href="#" text="Instragram" />
+          </div>
+
+          <div className="flex gap-x-3">
+            <RSSIcon />
+            <FooterLink href="#" text="RSS" />
+          </div>
         </nav>
 
         {/* footer item 2 */}
         <nav className="flex flex-col gap-y-3">
-          <h4 className="text-sm text-white">MEE6</h4>
-          <FooterLink href="#" text="Premium" />
-          <FooterLink href="#" text="Bot Personalizer" />
-          <FooterLink href="#" text="Support Server" />
-          <FooterLink href="#" text="Support Portal" />
-          <FooterLink href="#" text="Support Contact" />
+          <h4 className=" text-black font-bold">Products</h4>
+          <FooterLink href="#" text="Builder Studio" />
+          <FooterLink href="#" text="Studio One" />
+          <FooterLink href="#" text="Builder Cloud" />
         </nav>
 
         {/*  footer item 3 */}
         <nav className="flex flex-col gap-y-3">
-          <h4 className="text-sm text-white">Plugins</h4>
+          <h4 className=" text-black font-bold">Resources</h4>
           <FooterLink href="#" text="Server management" />
           <FooterLink href="#" text="Utilities" />
           <FooterLink href="#" text="Social Alerts" />
@@ -44,28 +67,27 @@ const Footer = () => {
 
         {/*  footer item 4 */}
         <nav className="flex flex-col gap-y-3">
-          <h4 className="text-sm text-white">Plugins</h4>
-          <FooterLink href="#" text="Server management" />
-          <FooterLink href="#" text="Utilities" />
-          <FooterLink href="#" text="Social Alerts" />
-          <FooterLink href="#" text="Engagement & Fun" />
-          <FooterLink href="#" text="AI Characters" />
+          <h4 className=" text-black font-bold">Company</h4>
+          <FooterLink href="#" text="App Builder" />
+          <FooterLink href="#" text="Ecommerce" />
+          <FooterLink href="#" text="Web to App" />
+          <FooterLink href="#" text="Business Tools" />
+          <FooterLink href="#" text="Glossary" />
+          <FooterLink href="#" text="Devops" />
         </nav>
 
         {/* footer item 5 */}
         <nav className="flex flex-col gap-y-3">
-          <h4 className="text-sm text-white">Plugins</h4>
-          <FooterLink href="#" text="Server management" />
-          <FooterLink href="#" text="Utilities" />
-          <FooterLink href="#" text="Social Alerts" />
-          <FooterLink href="#" text="Engagement & Fun" />
-          <FooterLink href="#" text="AI Characters" />
+          <h4 className=" text-black font-bold">Reach Us</h4>
+          <FooterLink href="#" text="Blog" />
+          <FooterLink href="#" text="News Room" />
+          <FooterLink href="#" text="Contact Us" />
         </nav>
       </div>
 
       {/* Copyright */}
-      <section className=" grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 bg-[#F8F9FA]">
-        <div className="flex items-center px-1 lg:px-2">
+      <section className=" mt-10 py-10 grid grid-cols-1 lg:grid-cols-2 gap-5 bg-[#F8F9FA] items-center">
+        <div className="max-w-primary px-4 sm:px-6 lg:px-8 lg:flex lg:justify-between lg:gap-x-28">
           <address>
             <p>
               <a href="#">
@@ -82,7 +104,7 @@ const Footer = () => {
             </p>
           </address>
         </div>
-        <div className="grid grid-cols-4 gap-5 items-center">
+        <div className="flex justify-center items-center gap-3">
           <div>
             <img src={footerImgBrand1} alt="" />
           </div>
