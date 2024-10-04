@@ -80,9 +80,9 @@ const Home = () => {
         buttonText="Learn More"
       /> */}
       <Promo
-        heading="Build the best Discord server for free"
-        buttonText="Add to Discord"
-        icon={FaDiscord}
+        heading="Got Questions?"
+        paragraph="Head to our FAQ page for in-depth answers"
+        primaryButtonText="Read FAQs"
       />
     </div>
   );
