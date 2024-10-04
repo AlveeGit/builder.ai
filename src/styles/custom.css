@@ -1,0 +1,31 @@
+/* Common Start */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.max-w-primary{
+  max-width: 1600px;
+}
+
+
+/* Common End */
+/* ---------------------------- */
+
+
+
+
+/* Alvee Start */
+
+/* Alvee End */
+/* ---------------------------- */
+
+
+
+
+/* Fuad Start */
+/* Fuad End */
+/* ---------------------------- */
