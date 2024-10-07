@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Flag from "react-flagkit";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Button from "./common/Button";
 import DropdownNavItem from "./navbar/DropdownNavItem";
 import DropdownContent from "./navbar/DropdownContent";
@@ -8,6 +8,7 @@ import { navItems } from "../cms/nav/NavData";
 import { FaCrown } from "react-icons/fa";
 
 const Navbar = () => {
+  const location = useLocation(); // Get the current location
   const [openDropdown, setOpenDropdown] = useState(null);
   const [selectedLanguage, setSelectedLanguage] = useState("US");
 
@@ -24,6 +25,9 @@ const Navbar = () => {
     setSelectedLanguage(selectedValue);
   };
 
+  // Function to check if the link is active
+  const isActiveLink = (path) => location.pathname === path;
+
   return (
     <nav className=" bg-white w-full  sticky top-0 z-50 ">
       <div className="max-w-primary mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
@@ -36,15 +40,28 @@ const Navbar = () => {
             Builder.ai
           </Link>
           <Link
+            to="/"
+            className={`text-sm font-bold ${
+              isActiveLink("/") ? "text-primary border-b-2" : ""
+            }`}
+            onClick={handleLinkClick}
+          >
+            Home
+          </Link>
+          <Link
             to="/products"
-            className="text-sm font-bold  "
+            className={`text-sm font-bold ${
+              isActiveLink("/products") ? "text-primary border-b-2" : ""
+            }`}
             onClick={handleLinkClick}
           >
             Products
           </Link>
           <Link
             to="/contact-us"
-            className="text-sm font-bold "
+            className={`text-sm font-bold ${
+              isActiveLink("/contact-us") ? "text-primary border-b-2" : ""
+            }`}
             onClick={handleLinkClick}
           >
             Contact Us
