@@ -22,6 +22,7 @@ import {
   featureData,
   HomeHeroList,
 } from "../cms/home/HomeData.js";
+import Faq from "../components/faq/Faq.js";
 
 const Home = () => {
   const brandLogos = [
@@ -79,6 +80,14 @@ const Home = () => {
         cards={guideCardsData}
         buttonText="Learn More"
       /> */}
+      {/* FAQ */}
+      <Faq
+        heading="FAQs"
+        // paragraph="Head to our FAQ page for in-depth answers"
+        // primaryButtonText="Read FAQs"
+      />
+
+      {/* Promo */}
       <Promo
         heading="Got Questions?"
         paragraph="Head to our FAQ page for in-depth answers"
