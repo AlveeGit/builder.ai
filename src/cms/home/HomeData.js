@@ -24,6 +24,7 @@ import {
   homefeature3,
   influhire,
   menamedica,
+  menacheckout,
 } from "../../assets/images/index.js";
 
 export const facilitiesData = [
@@ -188,11 +189,11 @@ export const productsFeatureData = [
     imagePosition: "right",
   },
   {
-    title: "Customer success that starts before your app is built",
+    title: "MenaCheckout.com",
     paragraph:
       "At Builder.ai, our product managers are called Productologists. When your app build begins, you’ll meet with your Productologist once a week, but you can collaborate with and contact them at any time via your all-in-one project dashboard, Builder Home. This helps to ensure that the final product looks just like your original app idea.",
     // showDiscordButton: true,
-    image: homefeature3,
+    image: menacheckout,
     imagePosition: "left",
   },
 ];
