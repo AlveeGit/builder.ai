@@ -25,6 +25,7 @@ import {
   featureData,
   HomeHeroList,
 } from "../cms/home/HomeData.js";
+import Faq from "../components/faq/Faq.js";
 
 const Home = () => {
   const brandLogos = [
@@ -112,7 +113,14 @@ const Home = () => {
         transition={{ duration: 1, ease: "easeInOut" }}
         className="mb-16"
       >
-        <Promo
+        
+      {/* FAQ */}
+      <Faq
+        heading="FAQs"
+      />
+
+      {/* Promo */}
+      <Promo
           heading="Got Questions?"
           paragraph="Head to our FAQ page for in-depth answers"
           primaryButtonText="Read FAQs"
