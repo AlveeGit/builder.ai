@@ -80,11 +80,10 @@ const Home = () => {
         cards={guideCardsData}
         buttonText="Learn More"
       /> */}
+      
       {/* FAQ */}
       <Faq
         heading="FAQs"
-        // paragraph="Head to our FAQ page for in-depth answers"
-        // primaryButtonText="Read FAQs"
       />
 
       {/* Promo */}
