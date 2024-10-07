@@ -29,7 +29,7 @@ const Feature = ({
 
   const imageColumn = (
     <div
-      className={`flex  justify-center items-center w-full ${
+      className={`flex  justify-center items-center w-full shadow-lg ${
         imagePosition === "left" || imagePosition === "right"
           ? "md:w-1/2 "
           : "w-full"

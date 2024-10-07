@@ -8,6 +8,9 @@ import Promo from "../components/Promo";
 import { FaDiscord } from "react-icons/fa6";
 import Server from "../components/servers/server";
 import { homepagehero } from "../assets/images";
+import AnimatedShape from "../components/AnimatedShape";
+import { motion } from "framer-motion";
+
 import {
   footerImgBrand1,
   footerImgBrand2,
@@ -32,36 +35,60 @@ const Home = () => {
   ];
 
   return (
-    <div>
-      <Hero
-        title="We make building an app so easy, anyone can do it"
-        paragraph="Your vision. Your software. We just build it."
-        // showDiscordButton
-        primaryButtonText="Get a free demo"
-        secondaryButtonText="See pricing and plans"
-        alignment="left"
-        listItems={HomeHeroList}
-        // backgroundImage={homeHeroBg}
-        // subImage={homeHeroSub}
-        // gradient
-        mainImage={homepagehero}
-      />
+    <div className="relative">
+      {/* Animated Shapes Background */}
+      <AnimatedShape circle1 circle2 circle3 star1 wave1 wave2 />
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="mb-16"
+      >
+        <Hero
+          title="We make building an app so easy, anyone can do it"
+          paragraph="Your vision. Your software. We just build it."
+          // showDiscordButton
+          primaryButtonText="Get a free demo"
+          secondaryButtonText="See pricing and plans"
+          alignment="left"
+          listItems={HomeHeroList}
+          // backgroundImage={homeHeroBg}
+          // subImage={homeHeroSub}
+          // gradient
+          mainImage={homepagehero}
+        />
+      </motion.div>
 
-      <Brands
-        title="Voted one of the top 3 'Most Innovative' Companies in AI - 2023"
-        logos={brandLogos}
-      />
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="mb-16"
+      >
+        <Brands
+          title="Voted one of the top 3 'Most Innovative' Companies in AI - 2023"
+          logos={brandLogos}
+        />
+      </motion.div>
 
       {featureData.map((feature, index) => (
-        <Feature
+        <motion.div
           key={index}
-          title={feature.title}
-          paragraph={feature.paragraph}
-          showDiscordButton={feature.showDiscordButton}
-          secondaryButtonText={feature.secondaryButtonText}
-          image={feature.image}
-          imagePosition={feature.imagePosition}
-        />
+          initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: index * 0.2 }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <Feature
+            key={index}
+            title={feature.title}
+            paragraph={feature.paragraph}
+            showDiscordButton={feature.showDiscordButton}
+            secondaryButtonText={feature.secondaryButtonText}
+            image={feature.image}
+            imagePosition={feature.imagePosition}
+          />
+        </motion.div>
       ))}
 
       {/* <Server
@@ -79,11 +106,18 @@ const Home = () => {
         cards={guideCardsData}
         buttonText="Learn More"
       /> */}
-      <Promo
-        heading="Got Questions?"
-        paragraph="Head to our FAQ page for in-depth answers"
-        primaryButtonText="Read FAQs"
-      />
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="mb-16"
+      >
+        <Promo
+          heading="Got Questions?"
+          paragraph="Head to our FAQ page for in-depth answers"
+          primaryButtonText="Read FAQs"
+        />
+      </motion.div>
     </div>
   );
 };

@@ -35,6 +35,20 @@ const Navbar = () => {
           >
             Builder.ai
           </Link>
+          <Link
+            to="/products"
+            className="text-sm font-bold  "
+            onClick={handleLinkClick}
+          >
+            Products
+          </Link>
+          <Link
+            to="/contact-us"
+            className="text-sm font-bold "
+            onClick={handleLinkClick}
+          >
+            Contact Us
+          </Link>
 
           {navItems.map(
             ({ title, dropdownName, linkCardsData, spotlightData }) => (

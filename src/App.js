@@ -9,6 +9,8 @@ import Premium from "./pages/Premium";
 import SocialAlerts from "./pages/SocialAlerts";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import ContactUs from "./pages/ContactUs";
+import Products from "./pages/Products";
 
 const App = () => {
   return (
@@ -23,6 +25,12 @@ const App = () => {
         <Route path="/social-alerts" element={<SocialAlerts />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+
+        <Route path="/products" element={<Products />} />
+
+        <Route path="/contact-us" element={<ContactUs />} />
+        
+        <Route path="*" element={<Home />} />
       </Routes>
     </Layout>
   );

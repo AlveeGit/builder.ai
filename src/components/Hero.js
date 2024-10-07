@@ -52,7 +52,7 @@ const Hero = ({
 
   return (
     <section
-      className={`relative flex flex-col justify-center min-h-[85vh] w-full`}
+      className={`relative flex flex-col justify-center min-h-[70vh] w-full`}
       style={backgroundStyles}
     >
       {/* SubImage div */}

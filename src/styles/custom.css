@@ -22,6 +22,14 @@ body {
   background-color: var(--primary-color);
 }
 
+.custom-form{
+  label,
+  input,
+  textarea{
+   padding: 10px 15px;
+  }
+}
+
 
 /* Common End */
 /* ---------------------------- */

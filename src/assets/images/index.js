@@ -51,7 +51,9 @@ import fastcompany from "./fastcompany.png";
 import homefeature1 from "./homefeature1.png";
 import homefeature2 from "./homefeature2.png";
 import homefeature3 from "./homefeature3.png";
-
+import productshero from "./productshero.webp";
+import influhire from "./influhire.png";
+import menamedica from "./menamedica.png";
 
 export {
   feature1,
@@ -106,5 +108,8 @@ export {
   fastcompany,
   homefeature1,
   homefeature2,
-  homefeature3
+  homefeature3,
+  productshero,
+  influhire,
+  menamedica,
 };

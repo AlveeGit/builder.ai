@@ -129,34 +129,34 @@ export const spotlightData = {
 };
 
 export const navItems = [
-  {
-    title: "Products",
-    dropdownName: "Products",
-    linkCardsData: linkCardsDataPlugins,
-    spotlightData,
-  },
-  {
-    title: "Solutions for",
-    dropdownName: "Solutions for",
-    linkCardsData: linkCardsDataResources,
-    spotlightData,
-  },
-  {
-    title: "Why Builder.ai",
-    dropdownName: "Why Builder.ai",
-    linkCardsData: linkCardsDataResources,
-    spotlightData,
-  },
-  {
-    title: "About us",
-    dropdownName: "About us",
-    linkCardsData: linkCardsDataResources,
-    spotlightData,
-  },
-  {
-    title: "Resources",
-    dropdownName: "Resources",
-    linkCardsData: linkCardsDataResources,
-    spotlightData,
-  }
+  // {
+  //   title: "Products",
+  //   dropdownName: "Products",
+  //   linkCardsData: linkCardsDataPlugins,
+  //   spotlightData,
+  // },
+  // {
+  //   title: "Solutions for",
+  //   dropdownName: "Solutions for",
+  //   linkCardsData: linkCardsDataResources,
+  //   spotlightData,
+  // },
+  // {
+  //   title: "Why Builder.ai",
+  //   dropdownName: "Why Builder.ai",
+  //   linkCardsData: linkCardsDataResources,
+  //   spotlightData,
+  // },
+  // {
+  //   title: "About us",
+  //   dropdownName: "About us",
+  //   linkCardsData: linkCardsDataResources,
+  //   spotlightData,
+  // },
+  // {
+  //   title: "Resources",
+  //   dropdownName: "Resources",
+  //   linkCardsData: linkCardsDataResources,
+  //   spotlightData,
+  // }
 ];
