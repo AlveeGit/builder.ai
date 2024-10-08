@@ -9,40 +9,61 @@
   {
     "id": 2,
     "imgUrl": "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
-    "name": "John Doe",
+    "name": "Alex",
     "designation": "Frontend Developer",
     "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
   },
   {
     "id": 3,
     "imgUrl": "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
-    "name": "John Doe",
+    "name": "Victor",
     "designation": "Frontend Developer",
     "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
   },
   {
     "id": 4,
     "imgUrl": "https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp",
-    "name": "John Doe",
+    "name": "Doe",
     "designation": "Frontend Developer",
     "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
   },
   {
     "id": 5,
     "imgUrl": "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
-    "name": "John Doe",
+    "name": "zaman",
     "designation": "Frontend Developer",
     "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
   },
   {
     "id": 6,
     "imgUrl": "https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp",
-    "name": "John Doe",
+    "name": "maya",
     "designation": "Frontend Developer",
     "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
   },
   {
     "id": 7,
+    "imgUrl": "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp",
+    "name": "Zee",
+    "designation": "Frontend Developer",
+    "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
+  },
+  {
+    "id": 8,
+    "imgUrl": "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
+    "name": "Ralvan",
+    "designation": "Frontend Developer",
+    "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
+  },
+  {
+    "id": 9,
+    "imgUrl": "https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp",
+    "name": "victer",
+    "designation": "Frontend Developer",
+    "feedback": "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally."
+  },
+  {
+    "id": 10,
     "imgUrl": "https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp",
     "name": "John Doe",
     "designation": "Frontend Developer",
