@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ icon: Icon, text, variant }) => {
+const Button = ({ icon: Icon, text, variant, className }) => {
   // Define a mapping for the button styles based on the 'variant' prop
   const variantStyles = {
     transparent: "bg-transparent hover:bg-gray-300 text-sm font-bold",
@@ -14,7 +14,7 @@ const Button = ({ icon: Icon, text, variant }) => {
   // Select the appropriate style or fallback to 'default'
   const buttonClass = `${
     variantStyles[variant] || variantStyles.default
-  } py-3 px-4 rounded-sm flex items-center justify-center space-x-2 transition duration-300 ease-in-out whitespace-nowrap `;
+  } py-3 px-4 rounded-sm flex items-center justify-center space-x-2 transition duration-300 ease-in-out whitespace-nowrap ${className} `;
 
   return (
     <button className={buttonClass}>
