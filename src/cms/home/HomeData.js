@@ -1,14 +1,5 @@
 import { ProtectIcon } from "../../assets/svg/svg-files";
 import {
-  feature1,
-  feature2,
-  feature3,
-  feature4,
-  feature5,
-  feature6,
-  feature7,
-  feature8,
-  feature9,
   guide1,
   guide2,
   guide3,
