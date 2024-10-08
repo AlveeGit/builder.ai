@@ -55,6 +55,12 @@ import productshero from "./productshero.webp";
 import influhire from "./influhire.png";
 import menamedica from "./menamedica.png";
 import menacheckout from "./menacheckout.png";
+import userImg1 from "./userImg1.png";
+import userImg2 from "./userImg2.png";
+import userImg3 from "./userImg3.png";
+import userImg4 from "./userImg4.png";
+import userImg5 from "./userImg5.png";
+
 
 export {
   menacheckout,
@@ -114,4 +120,9 @@ export {
   productshero,
   influhire,
   menamedica,
+  userImg1,
+  userImg2,
+  userImg3,
+  userImg4,
+  userImg5
 };
