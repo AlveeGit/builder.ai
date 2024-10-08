@@ -1,13 +1,11 @@
 import React from "react";
 import Button from "./common/Button";
 import { PromoImg } from "../assets/svg/promo-svg";
-import { div } from "framer-motion/client";
 
 const Promo = ({
   heading,
   paragraph,
-  primaryButtonText, buttonText,
-  icon,
+  primaryButtonText,
   onButtonClick,
 }) => {
   return (

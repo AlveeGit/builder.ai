@@ -2,8 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import AboutHero from "../components/about-us/AboutHero";
 import AboutTeam from "../components/about-us/AboutTeam";
-import AboutJoin from "../components/about-us/AboutJoin";
-import {TeamData} from "../cms/aboutUs/teamData";
+import { TeamData } from "../cms/aboutUs/teamData";
 import AboutHistory from "../components/about-us/AboutHistory";
 
 const AboutUs = () => {
@@ -37,16 +36,6 @@ const AboutUs = () => {
       >
         <AboutTeam teamMembers={TeamData} />
       </motion.div>
-
-      {/*  */}
-      {/* <motion.div
-        initial={{ opacity: 0, x: -30 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1, ease: "easeInOut" }}
-        className=""
-      >
-        <AboutJoin />
-      </motion.div> */}
     </div>
   );
 };

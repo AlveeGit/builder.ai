@@ -1,9 +1,7 @@
-import { use } from "framer-motion/client";
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Button = ({ icon: Icon, text, variant, link, className }) => {
-  const navigate=useNavigate()  
   // Define a mapping for the button styles based on the 'variant' prop
   const variantStyles = {
     transparent: "bg-transparent hover:bg-gray-300 text-sm font-bold",

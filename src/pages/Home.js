@@ -5,13 +5,6 @@ import Feature from "../components/Feature";
 import Brands from "../components/Brands";
 import Faq from "../components/faq/Faq.js";
 import Promo from "../components/Promo";
-import Facility from "../components/facilities/Facility";
-import Guide from "../components/guides/Guide";
-import { FaDiscord } from "react-icons/fa6";
-import Server from "../components/servers/server";
-import { homepagehero } from "../assets/images";
-import AnimatedShape from "../components/AnimatedShape";
-
 
 import {
   featureData,
@@ -19,16 +12,11 @@ import {
   BrandsData,
   FaqData,
   PromoData,
-  facilitiesData,
-  guideCardsData,
-  serverCardsData,
 } from "../cms/home/HomeData.js";
 
 const Home = () => {
   return (
     <div className="relative">
-      {/* Animated Shapes Background */}
-      {/* <AnimatedShape circle1 circle2 circle3 star1 wave1 wave2 /> */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -99,22 +87,6 @@ const Home = () => {
           primaryButtonText={PromoData.primaryButtonText}
         />
       </motion.div>
-
-      {/* <Server
-        heading="MEE6 is trusted and used by more than 21 Million servers"
-        serverCardsData={serverCardsData}
-      />
-
-      <Facility
-        heading="MEE6: The Best All-in-One Discord Bot"
-        facilitiesData={facilitiesData}
-      />
-      <Guide
-        heading="Discover MEE6 Tutorials, Documents and Guides"
-        paragraph="Whether you're new to Discord or have plenty of experience, the MEE6 team creates tutorials and resources to help you get rolling on your server. Check out our tutorials and get started today!"
-        cards={guideCardsData}
-        buttonText="Learn More"
-      /> */}
     </div>
   );
 };
