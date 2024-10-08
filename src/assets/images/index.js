@@ -54,8 +54,10 @@ import homefeature3 from "./homefeature3.png";
 import productshero from "./productshero.webp";
 import influhire from "./influhire.png";
 import menamedica from "./menamedica.png";
+import menacheckout from "./menacheckout.png";
 
 export {
+  menacheckout,
   feature1,
   feature2,
   feature3,

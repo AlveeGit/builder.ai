@@ -24,7 +24,16 @@ import {
   homefeature3,
   influhire,
   menamedica,
+  menacheckout,
 } from "../../assets/images/index.js";
+
+import { homepagehero } from "../../assets/images";
+import {
+  footerImgBrand1,
+  footerImgBrand2,
+  footerImgBrand3,
+  footerImgBrand4,
+} from "../../assets/images/BuilderAi_assets/index.js";
 
 export const facilitiesData = [
   {
@@ -144,18 +153,21 @@ export const featureData = [
   },
 ];
 
-export const HomeHeroList = [
-  {
-    item: "No tech knowledge needed",
-  },
-  {
-    item: "AI means we can build more cost effectively and at speed",
-  },
+export const HomeHeroData = {
+  title: "We make building an app so easy, anyone can do it",
+  paragraph: "Your vision. Your software. We just build it",
+  primaryButtonText: "Get a free demo",
+  primaryButtonLink: "#",
+  secondaryButtonText: "See pricing and plans",
+  secondaryButtonLink: "#",
+  list: [
+    "No tech knowledge needed",
+    "AI means we can build more cost effectively and at speed",
+    "Your own dedicated expert is with you at every step",
+  ],
+  mainImage: homepagehero,
+};
 
-  {
-    item: "Your own dedicated expert is with you at every step",
-  },
-];
 export const ProductsHeroList = [
   {
     item: "We can build anything, regardless of complexity",
@@ -188,11 +200,48 @@ export const productsFeatureData = [
     imagePosition: "right",
   },
   {
-    title: "Customer success that starts before your app is built",
+    title: "MenaCheckout.com",
     paragraph:
       "At Builder.ai, our product managers are called Productologists. When your app build begins, you’ll meet with your Productologist once a week, but you can collaborate with and contact them at any time via your all-in-one project dashboard, Builder Home. This helps to ensure that the final product looks just like your original app idea.",
     // showDiscordButton: true,
-    image: homefeature3,
+    image: menacheckout,
     imagePosition: "left",
   },
 ];
+
+export const BrandsData = {
+  title: "Voted one of the top 3 'Most Innovative' Companies in AI - 2023",
+  logos: [footerImgBrand1, footerImgBrand2, footerImgBrand3, footerImgBrand4],
+};
+
+export const FaqData = {
+  heading: "FAQs",
+  list: [
+    {
+      heading: "How much does it cost to build an app?",
+      paragraph:
+        "App development costs vary greatly depending on the complexity of the app, the developers involved, and other factors.",
+    },
+    {
+      heading: "How do you create an app without any coding?",
+      paragraph:
+        "The development timeline depends on the app's features, complexity, and team. It can range from a few months to over a year.",
+    },
+    {
+      heading: "Can you create an app for free?",
+      paragraph:
+        "We develop apps for iOS, Android, and web platforms, ensuring a consistent experience across all devices.",
+    },
+    {
+      heading: "How can I create my own app?",
+      paragraph:
+        "We develop apps for iOS, Android, and web platforms, ensuring a consistent experience across all devices.",
+    },
+  ],
+};
+
+export const PromoData = {
+  heading: "Got Questions?",
+  paragraph: "Head to our FAQ page for in-depth answers",
+  primaryButtonText: "Read FAQs",
+};
