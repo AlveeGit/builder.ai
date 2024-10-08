@@ -2,6 +2,7 @@ import React from "react";
 import { FaDiscord } from "react-icons/fa6";
 import Button from "./common/Button";
 
+
 const Feature = ({
   title,
   paragraph,
@@ -64,7 +65,9 @@ const Feature = ({
         <div>
           <h2 className="text-4xl font-bold mb-4">{title}</h2>
           <p className="mb-8 opacity-70">{paragraph}</p>
-          {secondaryParagraph && <p className="mb-8 opacity-70">{secondaryParagraph}</p>}
+          {secondaryParagraph && (
+            <p className="mb-8 opacity-70">{secondaryParagraph}</p>
+          )}
           <div className="flex gap-4 flex-col lg:flex-row">
             {showDiscordButton && (
               <Button icon={FaDiscord} text="Add to Discord" />
@@ -82,7 +85,9 @@ const Feature = ({
   );
 
   return (
-    <section className="flex justify-center w-full py-20">
+    <section
+      className="flex justify-center w-full py-20"
+    >
       <div
         className={`flex ${layoutClass} items-center w-full max-w-primary mx-auto px-4 sm:px-6 lg:px-8`}
       >
