@@ -19,14 +19,14 @@ const AboutTeam = ({ teamMembers }) => {
   }, []);
 
   return (
-    <div className="py-20">
+    <div className="pt-10 h-[80vh]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:items-center text-center">
         <h2 className="text-4xl font-bold mb-6">Say hello!</h2>
         <section className="w-full">
           {/* Carousel Wrapper */}
           <div
             ref={carouselRef}
-            className="w-full carousel carousel-center rounded-box space-x-4 p-4 border border-warning"
+            className="w-full carousel carousel-center rounded-box space-x-4 p-4"
           >
             {teamMembers.map((member) => (
               <div
