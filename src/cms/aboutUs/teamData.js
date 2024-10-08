@@ -17,78 +17,78 @@ export const TeamData = [
     name: "John Doe",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Working at Builder.ai has been a game-changer for my career. We’re making technology accessible, empowering creators globally to bring their ideas to life!",
   },
   {
     id: 2,
     imgUrl: team2,
-    name: "Alex",
+    name: "Alex Chen",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "I’m proud to be part of a team that’s truly transforming software creation. Builder.ai fosters an environment where innovation thrives!",
   },
   {
     id: 3,
     imgUrl: team3,
-    name: "Victor",
+    name: "Victor Hugo",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Builder.ai offers a platform where creativity and technology merge seamlessly, creating limitless possibilities for all!",
   },
   {
     id: 4,
     imgUrl: team4,
-    name: "Doe",
+    name: "Doe Kim",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Joining Builder.ai has allowed me to be part of an inspiring community, pushing the boundaries of what’s possible in tech.",
   },
   {
     id: 5,
     imgUrl: team5,
-    name: "zaman",
+    name: "Zaman Ali",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Builder.ai provides the tools and environment to turn ideas into reality. It's incredible to witness our impact on a global scale!",
   },
   {
     id: 6,
     imgUrl: team6,
-    name: "maya",
+    name: "Maya Patel",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "At Builder.ai, I’m constantly inspired by the passion of my colleagues. We’re breaking down barriers and reshaping the tech landscape!",
   },
   {
     id: 7,
     imgUrl: team7,
-    name: "Zee",
+    name: "Zee Torres",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "This is a place where innovation meets purpose. Builder.ai is leading a software revolution, and I’m excited to be part of it.",
   },
   {
     id: 8,
     imgUrl: team8,
-    name: "Ralvan",
+    name: "Ralvan Smith",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Working at Builder.ai has shown me that technology truly has the power to change lives. We’re making software creation accessible to everyone.",
   },
   {
     id: 9,
     imgUrl: team9,
-    name: "victer",
+    name: "Victor Martinez",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Builder.ai is more than a workplace—it’s a movement. I’m grateful to contribute to making technology accessible for all.",
   },
   {
     id: 10,
     imgUrl: team5,
-    name: "John Doe",
+    name: "Emma Johnson",
     designation: "Frontend Developer",
     feedback:
-      "Builder.ai is leading a software revolution, breaking down barriers to technology creation. We are making it possible for every idea to find its digital expression, transforming the landscape of how software is built and experienced globally.",
+      "Being at Builder.ai means being part of something larger than myself. We’re reshaping how software is created and experienced globally!",
   },
 ];

@@ -90,7 +90,7 @@ const AboutTeam = ({ teamMembers }) => {
 
                     {/* Feedback (Initially Hidden, Show on Hover) */}
                     <div className="max-h-0 overflow-hidden opacity-0 text-start group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 ease-in-out mt-4">
-                      <p className="text-xs text-gray-500">{member.feedback}</p>
+                      <p className="text-sm text-gray-500">{member.feedback}</p>
                     </div>
                   </div>
                 </div>
