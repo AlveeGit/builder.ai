@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import AboutHero from "../components/about-us/AboutHero";
 import AboutTeam from "../components/about-us/AboutTeam";
 import AboutJoin from "../components/about-us/AboutJoin";
+import teamData from "../cms/aboutUs/teamData.json";
 
 const AboutUs = () => {
   return (
@@ -24,7 +25,7 @@ const AboutUs = () => {
         transition={{ duration: 1, ease: "easeInOut" }}
         className=""
       >
-        <AboutTeam />
+        <AboutTeam teamMembers={teamData} />
       </motion.div>
 
       {/*  */}
