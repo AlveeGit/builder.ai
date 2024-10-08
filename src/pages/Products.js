@@ -44,7 +44,8 @@ const Products = () => {
               title={feature.title}
               paragraph={feature.paragraph}
               showDiscordButton={feature.showDiscordButton}
-              secondaryButtonText={feature.secondaryButtonText}
+              primaryButtonText={feature.primaryButtonText}
+              primaryButtonLink={feature.primaryButtonLink}
               image={feature.image}
               imagePosition={feature.imagePosition}
             />

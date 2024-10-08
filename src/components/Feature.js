@@ -7,7 +7,10 @@ const Feature = ({
   paragraph,
   secondaryParagraph,
   showDiscordButton,
+  primaryButtonText,
+  primaryButtonLink,
   secondaryButtonText,
+  secondaryButtonLink,
   image,
   imagePosition,
   icon: Icon,
@@ -65,6 +68,9 @@ const Feature = ({
           <div className="flex gap-4 flex-col lg:flex-row">
             {showDiscordButton && (
               <Button icon={FaDiscord} text="Add to Discord" />
+            )}
+            {primaryButtonText && (
+              <Button text={primaryButtonText} link={primaryButtonLink} />
             )}
             {secondaryButtonText && (
               <Button text={secondaryButtonText} variant="secondary" />
