@@ -69,7 +69,7 @@ const Hero = ({
                   {listItems.map((item, index) => (
                     <li key={index} className="text-2xl">
                       <FaCheckCircle className="inline text-primary mr-2" />
-                      {item.item}
+                      {item}
                     </li>
                   ))}
                 </ul>

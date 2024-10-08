@@ -49,13 +49,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/products"
+            to="/projects"
             className={`text-sm font-bold ${
-              isActiveLink("/products") ? "text-primary border-b-2" : ""
+              isActiveLink("/projects") ? "text-primary border-b-2" : ""
             }`}
             onClick={handleLinkClick}
           >
-            Products
+            Porjects
           </Link>
           <Link
             to="/contact-us"

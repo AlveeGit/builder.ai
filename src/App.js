@@ -26,10 +26,10 @@ const App = () => {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
 
-        <Route path="/products" element={<Products />} />
+        <Route path="/projects" element={<Products />} />
 
         <Route path="/contact-us" element={<ContactUs />} />
-        
+
         <Route path="*" element={<Home />} />
       </Routes>
     </Layout>

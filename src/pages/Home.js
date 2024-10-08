@@ -1,44 +1,34 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Feature from "../components/Feature";
 import Brands from "../components/Brands";
+import Faq from "../components/faq/Faq.js";
+import Promo from "../components/Promo";
 import Facility from "../components/facilities/Facility";
 import Guide from "../components/guides/Guide";
-import Promo from "../components/Promo";
 import { FaDiscord } from "react-icons/fa6";
 import Server from "../components/servers/server";
 import { homepagehero } from "../assets/images";
 import AnimatedShape from "../components/AnimatedShape";
-import { motion } from "framer-motion";
+
 
 import {
-  footerImgBrand1,
-  footerImgBrand2,
-  footerImgBrand3,
-  footerImgBrand4,
-} from "../assets/images/BuilderAi_assets/index.js";
-
-import {
+  featureData,
+  HomeHeroData,
+  BrandsData,
+  FaqData,
+  PromoData,
   facilitiesData,
   guideCardsData,
   serverCardsData,
-  featureData,
-  HomeHeroList,
 } from "../cms/home/HomeData.js";
-import Faq from "../components/faq/Faq.js";
 
 const Home = () => {
-  const brandLogos = [
-    footerImgBrand1,
-    footerImgBrand2,
-    footerImgBrand3,
-    footerImgBrand4,
-  ];
-
   return (
     <div className="relative">
       {/* Animated Shapes Background */}
-      <AnimatedShape circle1 circle2 circle3 star1 wave1 wave2 />
+      {/* <AnimatedShape circle1 circle2 circle3 star1 wave1 wave2 /> */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -46,17 +36,17 @@ const Home = () => {
         className="mb-16"
       >
         <Hero
-          title="We make building an app so easy, anyone can do it"
-          paragraph="Your vision. Your software. We just build it."
-          // showDiscordButton
-          primaryButtonText="Get a free demo"
-          secondaryButtonText="See pricing and plans"
+          title={HomeHeroData.title}
+          paragraph={HomeHeroData.paragraph}
+          primaryButtonText={HomeHeroData.primaryButtonText}
+          secondaryButtonText={HomeHeroData.secondaryButtonText}
+          listItems={HomeHeroData.list}
+          mainImage={HomeHeroData.mainImage}
           alignment="left"
-          listItems={HomeHeroList}
+          // showDiscordButton
           // backgroundImage={homeHeroBg}
           // subImage={homeHeroSub}
           // gradient
-          mainImage={homepagehero}
         />
       </motion.div>
 
@@ -66,10 +56,7 @@ const Home = () => {
         transition={{ duration: 1, ease: "easeInOut" }}
         className="mb-16"
       >
-        <Brands
-          title="Voted one of the top 3 'Most Innovative' Companies in AI - 2023"
-          logos={brandLogos}
-        />
+        <Brands title={BrandsData.title} logos={BrandsData.logos} />
       </motion.div>
 
       {featureData.map((feature, index) => (
@@ -92,6 +79,27 @@ const Home = () => {
         </motion.div>
       ))}
 
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="mb-16"
+      >
+        <Faq heading={FaqData.heading} list={FaqData.list} />
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className="mb-16"
+      >
+        <Promo
+          heading={PromoData.heading}
+          paragraph={PromoData.paragraph}
+          primaryButtonText={PromoData.primaryButtonText}
+        />
+      </motion.div>
+
       {/* <Server
         heading="MEE6 is trusted and used by more than 21 Million servers"
         serverCardsData={serverCardsData}
@@ -107,25 +115,6 @@ const Home = () => {
         cards={guideCardsData}
         buttonText="Learn More"
       /> */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: "easeInOut" }}
-        className="mb-16"
-      >
-        
-      {/* FAQ */}
-      <Faq
-        heading="FAQs"
-      />
-
-      {/* Promo */}
-      <Promo
-          heading="Got Questions?"
-          paragraph="Head to our FAQ page for in-depth answers"
-          primaryButtonText="Read FAQs"
-        />
-      </motion.div>
     </div>
   );
 };
