@@ -11,6 +11,9 @@ import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import ContactUs from "./pages/ContactUs";
 import Products from "./pages/Products";
+import AboutUs from "./pages/AboutUs";
+// import AboutUs from "./pages/AboutUs";
+
 
 const App = () => {
   return (
@@ -29,7 +32,8 @@ const App = () => {
         <Route path="/projects" element={<Products />} />
 
         <Route path="/contact-us" element={<ContactUs />} />
-
+        <Route path="/about-us" element={<AboutUs />} />
+        
         <Route path="*" element={<Home />} />
       </Routes>
     </Layout>

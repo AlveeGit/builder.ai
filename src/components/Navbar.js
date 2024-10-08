@@ -66,6 +66,13 @@ const Navbar = () => {
           >
             Contact Us
           </Link>
+          <Link
+            to="/about-us"
+            className="text-sm font-bold "
+            onClick={handleLinkClick}
+          >
+            About Us
+          </Link>
 
           {navItems.map(
             ({ title, dropdownName, linkCardsData, spotlightData }) => (
