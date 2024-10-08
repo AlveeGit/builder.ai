@@ -55,7 +55,7 @@ const Navbar = () => {
             }`}
             onClick={handleLinkClick}
           >
-            Porjects
+            Projects
           </Link>
           <Link
             to="/contact-us"
@@ -68,7 +68,9 @@ const Navbar = () => {
           </Link>
           <Link
             to="/about-us"
-            className="text-sm font-bold "
+            className={`text-sm font-bold ${
+              isActiveLink("/about-us") ? "text-primary border-b-2" : ""
+            }`}
             onClick={handleLinkClick}
           >
             About Us

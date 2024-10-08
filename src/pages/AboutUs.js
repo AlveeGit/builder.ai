@@ -4,6 +4,7 @@ import AboutHero from "../components/about-us/AboutHero";
 import AboutTeam from "../components/about-us/AboutTeam";
 import AboutJoin from "../components/about-us/AboutJoin";
 import teamData from "../cms/aboutUs/teamData.json";
+import AboutHistory from "../components/about-us/AboutHistory";
 
 const AboutUs = () => {
   return (
@@ -16,6 +17,15 @@ const AboutUs = () => {
         className=""
       >
         <AboutHero />
+      </motion.div>
+      {/*  */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+        className=""
+      >
+        <AboutHistory />
       </motion.div>
 
       {/*   */}

@@ -5,6 +5,7 @@ import Button from "./common/Button";
 const Feature = ({
   title,
   paragraph,
+  secondaryParagraph,
   showDiscordButton,
   secondaryButtonText,
   image,
@@ -60,6 +61,7 @@ const Feature = ({
         <div>
           <h2 className="text-4xl font-bold mb-4">{title}</h2>
           <p className="mb-8 opacity-70">{paragraph}</p>
+          {secondaryParagraph && <p className="mb-8 opacity-70">{secondaryParagraph}</p>}
           <div className="flex gap-4 flex-col lg:flex-row">
             {showDiscordButton && (
               <Button icon={FaDiscord} text="Add to Discord" />

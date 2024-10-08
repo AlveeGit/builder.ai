@@ -13,9 +13,6 @@ import {
   homefeature1,
   homefeature2,
   homefeature3,
-  influhire,
-  menamedica,
-  menacheckout,
 } from "../../assets/images/index.js";
 
 import { homepagehero } from "../../assets/images";
@@ -158,47 +155,6 @@ export const HomeHeroData = {
   ],
   mainImage: homepagehero,
 };
-
-export const ProductsHeroList = [
-  {
-    item: "We can build anything, regardless of complexity",
-  },
-  {
-    item: "Guaranteed pricing and clear timelines",
-  },
-
-  {
-    item: "Aftercare keeps your software up to date and bug free",
-  },
-];
-
-export const productsFeatureData = [
-  {
-    title: "MenaMedica.com",
-    paragraph:
-      "Need the speed and simplicity of a no-code app builder, but the technical sophistication a dev shop can deliver? We’ve got you covered. Builder.ai can create any app you can imagine, to your exact specifications.",
-    // showDiscordButton: true,
-    // secondaryButtonText: "Learn More",
-    image: menamedica,
-    imagePosition: "left",
-  },
-  {
-    title: "InfluHire.com",
-    paragraph:
-      "AI fits reusable features together based on a template you choose so our developers can focus on creating the custom features only your business needs. AI also calculates a price based on the features you choose and gives you fixed costs and clear timelines.",
-    // showDiscordButton: true,
-    image: influhire,
-    imagePosition: "right",
-  },
-  {
-    title: "MenaCheckout.com",
-    paragraph:
-      "At Builder.ai, our product managers are called Productologists. When your app build begins, you’ll meet with your Productologist once a week, but you can collaborate with and contact them at any time via your all-in-one project dashboard, Builder Home. This helps to ensure that the final product looks just like your original app idea.",
-    // showDiscordButton: true,
-    image: menacheckout,
-    imagePosition: "left",
-  },
-];
 
 export const BrandsData = {
   title: "Voted one of the top 3 'Most Innovative' Companies in AI - 2023",

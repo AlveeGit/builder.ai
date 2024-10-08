@@ -55,8 +55,9 @@ import productshero from "./productshero.webp";
 import influhire from "./influhire.png";
 import menamedica from "./menamedica.png";
 import menacheckout from "./menacheckout.png";
-
+import aboutUsHistory from "./aboutUsHistory.jpg";
 export {
+  aboutUsHistory,
   menacheckout,
   feature1,
   feature2,

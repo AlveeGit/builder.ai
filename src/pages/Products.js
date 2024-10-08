@@ -1,10 +1,11 @@
 import Feature from "../components/Feature";
 import Hero from "../components/Hero";
-import { productsFeatureData, ProductsHeroList } from "../cms/home/HomeData.js";
-import { productshero } from "../assets/images";
 import { motion } from "framer-motion";
 import AnimatedShapes1 from "../components/AnimatedShapes1"; // Import animated shapes
-
+import {
+  ProjectsHeroData,
+  productsFeatureData,
+} from "../cms/projects/ProjectsData.js";
 const Products = () => {
   return (
     <div className="relative">
@@ -19,13 +20,13 @@ const Products = () => {
         className="mb-16"
       >
         <Hero
-          title="Apps made to order"
-          paragraph="Don’t speak tech? Then let us develop your app idea"
-          primaryButtonText="Get a free demo"
-          secondaryButtonText="See pricing and plans"
+          title={ProjectsHeroData.title}
+          paragraph={ProjectsHeroData.paragraph}
+          primaryButtonText={ProjectsHeroData.primaryButtonText}
+          secondaryButtonText={ProjectsHeroData.secondaryButtonText}
           alignment="left"
-          listItems={ProductsHeroList}
-          mainImage={productshero}
+          listItems={ProjectsHeroData.list}
+          mainImage={ProjectsHeroData.mainImage}
         />
       </motion.div>
 
