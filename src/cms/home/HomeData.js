@@ -13,9 +13,9 @@ import {
   homefeature1,
   homefeature2,
   homefeature3,
+  home,
 } from "../../assets/images/index.js";
 
-import { homepagehero } from "../../assets/images";
 import {
   footerImgBrand1,
   footerImgBrand2,
@@ -153,7 +153,7 @@ export const HomeHeroData = {
     "AI means we can build more cost effectively and at speed",
     "Your own dedicated expert is with you at every step",
   ],
-  mainImage: homepagehero,
+  mainImage: home,
 };
 
 export const BrandsData = {

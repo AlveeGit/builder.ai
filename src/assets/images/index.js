@@ -65,8 +65,10 @@ import team6 from "./team6.jpg";
 import team7 from "./team7.jpg";
 import team8 from "./team8.jpg";
 import team9 from "./team9.jpg";
+import home from "./home.png";
 
 export {
+  home,
   team1,
   team2,
   team3,
